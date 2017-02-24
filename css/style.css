@@ -1,0 +1,32 @@
+/* Style */
+
+.hide {
+  animation: alter 2s infinite;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+#error-message {
+	color: red;
+}
+
+.float-rigth {
+	float: right;
+	text-align: left;
+}
+
+ul {
+	list-style-type: decimal;
+}
+
+@keyframes alter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
